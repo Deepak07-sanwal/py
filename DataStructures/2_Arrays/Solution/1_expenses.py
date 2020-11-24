@@ -18,7 +18,7 @@
 exp = [2200,2350,2600,2130,2190]
 
 # 1. In Feb, how many dollars you spent extra compare to January?
-print("In feb this much extra was spent compared to jan:",exp[1]-exp[0]) # 150
+print(f"In feb this much extra was spent compared to jan: {exp[1]-exp[0]}") # 150
 
 # 2. Find out your total expense in first quarter (first three months) of the year
 print("Expense for first quarter:",exp[0]+exp[1]+exp[2]) # 7150
